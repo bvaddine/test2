@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MyFirstWeb</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #2f4f4f;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #dcdcdc;
+    }
+
+    .content {
+      margin-top: 55px;
+      position: relative;
+      background-image: url('pexels-simon-berger-1323550.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      width: 100%;
+      z-index: -10;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-heading {
+      margin: 0;
+      padding: 50px 0 30px 15px;
+      color: white;
+      text-align: center;
+    }
+
+    .main-text {
+      margin: 0;
+      padding: 0 15px 50px 15px;
+      color: white;
+      font-style: italic;
+      font-size: 25px;
+      font-variant: Arial;
+      text-align: justify;
+    }
+
+    .profile-image {
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      width: 250px;
+      height: 400px;
+    }
+
+    .section {
+      margin: 10px;
+      background-color: #444;
+    }
+
+    .section ul {
+      margin: 0;
+      padding: 15px;
+      color: #8B0000;
+      font-variant: Arial;
+      font-weight: bold;
+      font-size: 19px;
+    }
+
+    .section li {
+      margin: 15px 0;
+    }
+
+    .section table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .section th, .section td {
+      padding: 15px;
+      text-align: justify;
+      color: white;
+    }
+
+    .section th {
+      color: #228b22;
+      font-style: italic;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a class="active" href="firstweb.html">HOME</a></li>
+    <li><a href="resume.html">RESUME</a></li>
+    <li><a href="portfolio.html">PORTFOLIO</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+
+  <div class="content">
+    <div class="overlay"></div>
+    <h2 class="main-heading">My life as a photographer</h2>
+    <p class="main-text"><q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</q></p>
+    <div>
+      <img class="profile-image" src="profile.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="section">
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <table>
+      <tr>
+        <th>Digital Photography</th>
+        <th>Legislature Photography</th>
+        <th>Wildlife Photography</th>
+        <th>Sports Photography</th>
+      </tr>
+      <tr>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </td>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </td>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </td>
+        <td>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>
